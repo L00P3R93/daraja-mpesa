@@ -1,7 +1,7 @@
 {
     "name": "sntaks/daraja-mpesa",
     "description": "This is a PHP package for the Safaricom's M-Pesa Daraja API.",
-    "keywords": ["mpesa","daraja","mpesa-api","api"],
+    "keywords": ["mpesa","daraja","mpesa-api","api","sntaks","looper","L00P3R93"],
     "type": "library",
     "license": "GPL-3.0-or-later",
     "autoload": {
