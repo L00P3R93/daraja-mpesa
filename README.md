@@ -13,7 +13,7 @@ This project supports both composer dependency management tool and can also be u
 ### Using Composer
 1. Run the following command
 ```
-composer require sntaks/mpesa
+composer require sntaks/daraja-mpesa
 ```
 ### Without composer
 
