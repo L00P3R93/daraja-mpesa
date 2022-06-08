@@ -20,15 +20,22 @@
             "email": "vincentkioko51@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.6.0"
-    },
-    "require-dev": {
+        "php": ">=5.6.0",
         "ext-curl": "*",
         "ext-mysqli": "*",
         "ext-pdo": "*",
         "ext-json": "*",
         "ext-openssl": "*"
+    },
+    "require-dev": {},
+    "config": {
+        "platform": {
+            "php": ">=5.6.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
     }
 }
