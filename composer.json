@@ -1,0 +1,31 @@
+{
+    "name": "sntaks/mpesa",
+    "description": "This is a PHP package for the Safaricom's M-Pesa Daraja API.",
+    "type": "library",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "PP\\Mpesa\\" : "src/mpesa"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PP\\Mpesa\\" : "src/mpesa"
+        }
+    },
+    "authors": [
+        {
+            "name": "L00P3R93",
+            "email": "vincentkioko51@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "ext-curl": "*",
+        "ext-mysqli": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    }
+}
