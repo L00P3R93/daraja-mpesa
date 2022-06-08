@@ -25,8 +25,7 @@ composer require sntaks/mpesa
 
 use PP\Mpesa\Init as Mpesa;
 ```
-3. Check the following example for usage https://github.com/L00P3R93/daraja-mpesa/blob/master/example/mpesa.php
-
+3. Check the following example for usage [example/mpesa.php](https://github.com/L00P3R93/daraja-mpesa/blob/main/example/mpesa.php)
 ## Configuration
 
 The library comes with a structured config file based on the API that you intend to use.
