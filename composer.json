@@ -1,6 +1,7 @@
 {
-    "name": "sntaks/mpesa",
+    "name": "sntaks/daraja-mpesa",
     "description": "This is a PHP package for the Safaricom's M-Pesa Daraja API.",
+    "keywords": ["mpesa","daraja","mpesa-api","api"],
     "type": "library",
     "license": "GNU",
     "autoload": {
