@@ -1,7 +1,7 @@
 {
     "name": "sntaks/daraja-mpesa",
     "description": "This is a PHP package for the Safaricom's M-Pesa Daraja API.",
-    "keywords": ["mpesa","daraja","mpesa-api","api","sntaks","looper","L00P3R93"],
+    "keywords": ["mpesa","daraja","mpesa-api","api","sntaks","looper","L00P3R93","safaricom","transactions"],
     "type": "library",
     "license": "GPL-3.0-or-later",
     "autoload": {
@@ -20,9 +20,11 @@
             "email": "vincentkioko51@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
         "ext-curl": "*",
         "ext-mysqli": "*",
         "ext-pdo": "*",

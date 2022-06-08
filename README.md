@@ -1,12 +1,13 @@
 # M-PESA DARAJA API Package
-[![Latest Stable Version](http://poser.pugx.org/phpunit/phpunit/v)](https://packagist.org/packages/phpunit/phpunit)
-[![Latest Unstable Version](http://poser.pugx.org/phpunit/phpunit/v/unstable)](https://packagist.org/packages/phpunit/phpunit) 
-[![License](http://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit) 
-[![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)](https://packagist.org/packages/phpunit/phpunit)
+[![Latest Stable Version](http://poser.pugx.org/sntaks/daraja-mpesa/v)](https://packagist.org/packages/sntaks/daraja-mpesa) 
+[![Total Downloads](http://poser.pugx.org/sntaks/daraja-mpesa/downloads)](https://packagist.org/packages/sntaks/daraja-mpesa) 
+[![Latest Unstable Version](http://poser.pugx.org/sntaks/daraja-mpesa/v/unstable)](https://packagist.org/packages/sntaks/daraja-mpesa) 
+[![License](http://poser.pugx.org/sntaks/daraja-mpesa/license)](https://packagist.org/packages/sntaks/daraja-mpesa) 
+[![PHP Version Require](http://poser.pugx.org/sntaks/daraja-mpesa/require/php)](https://packagist.org/packages/sntaks/daraja-mpesa)
 
 This is a PHP package for the Safaricom's M-Pesa Daraja API.  
 
-## Installation
+## Installations
 
 This project supports both composer dependency management tool and can also be used without composer
 
