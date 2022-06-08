@@ -3,7 +3,7 @@
     "description": "This is a PHP package for the Safaricom's M-Pesa Daraja API.",
     "keywords": ["mpesa","daraja","mpesa-api","api"],
     "type": "library",
-    "license": "GNU",
+    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "PP\\Mpesa\\" : "src/mpesa"
