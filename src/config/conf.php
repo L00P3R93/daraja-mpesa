@@ -20,12 +20,12 @@
              * The last two are credentials for the Daraja Apps in 'Sandbox'
              */
             'sandbox_default' => [
-                'consumer_key' => 'gdrGFoPQWl8jLFNaJ9I7GrUqjqLKSOWe',
-                'consumer_secret' => 'vdijp2mG3qxlENOA',
+                'consumer_key' => '',
+                'consumer_secret' => '',
             ],
             'sandbox_c2b' => [
-                'consumer_key' => 'Ww71pzySxjKDfBPuIMztAOVoBbPSNL4P',
-                'consumer_secret' => 'rsIyKV11OvklPQIe',
+                'consumer_key' => '',
+                'consumer_secret' => '',
             ],
             /*
              * The default working environment will be 'sandbox'.
