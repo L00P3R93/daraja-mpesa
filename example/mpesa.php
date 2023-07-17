@@ -7,7 +7,7 @@ $mpesa = new Mpesa();
 try {
     $user_params = [
         'Amount' => 10,
-        'PartyB' => '254715963478',
+        'PartyB' => '',
         'Remarks' => 'Test Business Payment'
     ];
     //$response = $mpesa->b2c($user_params);
