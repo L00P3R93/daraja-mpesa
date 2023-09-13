@@ -17,7 +17,7 @@ try {
     //$response = $mpesa->c2b_account_balance();
 
     /*$user_params = [
-        'TransactionID' => 'QCF9Q25VCN'
+        'TransactionID' => 'xxxxx'
     ];
     $response = $mpesa->b2c_transaction_status($user_params);*/
 
