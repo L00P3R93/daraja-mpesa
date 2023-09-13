@@ -51,7 +51,7 @@ try {
 
     $user_params = [
         'Amount' => 10,
-        'PartyB' => '254715963478',
+        'PartyB' => 'xxx',
         'Remarks' => 'Test Business Payment'
     ];
     //$response = $mpesa->b2c($user_params);
@@ -61,7 +61,7 @@ try {
     //$response = $mpesa->c2b_account_balance();
 
     /*$user_params = [
-        'TransactionID' => 'QCF9Q25VCN'
+        'TransactionID' => 'xxxx'
     ];
     $response = $mpesa->b2c_transaction_status($user_params);*/
 
