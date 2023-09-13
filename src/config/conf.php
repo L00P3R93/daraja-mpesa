@@ -122,7 +122,7 @@
             'security_credential' => 'Safaricom3021#',
             'short_code' => '603021',
             'default_command_id' => 'BusinessPayment',
-            'test_phone_number' => '254715963478',
+            'test_phone_number' => '254708374149',
             'result_url' => '', // Receives notifications for failed or successful sending of funds
             'timeout_url' => '' // Receives notifications for timed-out requests
         ],
