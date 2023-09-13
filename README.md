@@ -44,28 +44,34 @@ To add the necessary configurations:-
 <?php
 
 use PP\Mpesa\Init as Mpesa;
-
-
 $mpesa = new Mpesa();
+
 try {
 
+    // B2C Payment Request User Params
     $user_params = [
         'Amount' => 10,
         'PartyB' => 'xxx',
         'Remarks' => 'Test Business Payment'
     ];
-    //$response = $mpesa->b2c($user_params);
 
+    //Initiate B2C Payment Request
+    $response = $mpesa->b2c($user_params);
 
-    //$response = $mpesa->b2c_account_balance();
-    //$response = $mpesa->c2b_account_balance();
+    //Requests Account Balance
+    $response = $mpesa->b2c_account_balance();
+    $response = $mpesa->c2b_account_balance();
 
-    /*$user_params = [
+    // B2C Payment Transaction Status User Params
+    $user_params = [
         'TransactionID' => 'xxxx'
     ];
-    $response = $mpesa->b2c_transaction_status($user_params);*/
 
-    //$response_register = $mpesa->c2b();
+    // B2C Payment Transaction Status Request
+    $response = $mpesa->b2c_transaction_status($user_params);
+
+    //C2B Register Endpoints
+    $response_register = $mpesa->c2b();
 }catch(\Exception $e){
     $response = json_decode($e->getMessage());
 }
@@ -76,8 +82,6 @@ echo json_encode($response);
 ## Support
 Need support using this package:- 
 [Send a quick message here](https://t.me/sntaks)
-
-https://t.me/sntaks
 
 ## API's Supported
 The library implements all the exposed endpoints by Safaricom as listed below:-
